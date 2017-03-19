@@ -1,0 +1,12 @@
+F:\Users\Morpheuz\Documents\Visual Studio 2013\Projects\GamersMix\GamersMix\bin\Debug\GamersMix.exe.config
+F:\Users\Morpheuz\Documents\Visual Studio 2013\Projects\GamersMix\GamersMix\obj\Debug\GamersMix.exe
+F:\Users\Morpheuz\Documents\Visual Studio 2013\Projects\GamersMix\GamersMix\obj\Debug\GamersMix.pdb
+F:\Users\Morpheuz\Documents\Visual Studio 2013\Projects\GamersMix\GamersMix\bin\Debug\GamersMix.exe
+F:\Users\Morpheuz\Documents\Visual Studio 2013\Projects\GamersMix\GamersMix\bin\Debug\GamersMix.pdb
+F:\Users\Morpheuz\Documents\Visual Studio 2013\Projects\GamersMix\GamersMix\bin\Debug\Nancy.dll
+F:\Users\Morpheuz\Documents\Visual Studio 2013\Projects\GamersMix\GamersMix\bin\Debug\Nancy.Hosting.Self.dll
+F:\Users\Morpheuz\Documents\Visual Studio 2013\Projects\GamersMix\GamersMix\bin\Debug\Nancy.xml
+F:\Users\Morpheuz\Documents\Visual Studio 2013\Projects\GamersMix\GamersMix\bin\Debug\Nancy.Hosting.Self.xml
+F:\Users\Morpheuz\Documents\Visual Studio 2013\Projects\GamersMix\GamersMix\obj\Debug\GamersMix.Server.csprojResolveAssemblyReference.cache
+F:\Users\Morpheuz\Documents\Visual Studio 2013\Projects\GamersMix\GamersMix\bin\Debug\Newtonsoft.Json.dll
+F:\Users\Morpheuz\Documents\Visual Studio 2013\Projects\GamersMix\GamersMix\bin\Debug\Newtonsoft.Json.xml

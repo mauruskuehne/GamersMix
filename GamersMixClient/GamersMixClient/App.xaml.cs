@@ -15,23 +15,7 @@ namespace GamersMixClient
 		{
 			InitializeComponent();
 
-			SetMainPage();
-		}
-
-		public static void SetMainPage()
-		{
-			if (!UseMockDataStore && !Settings.IsLoggedIn)
-			{
-				Current.MainPage = new NavigationPage(new LoginPage())
-				{
-					BarBackgroundColor = (Color)Current.Resources["Primary"],
-					BarTextColor = Color.White
-				};
-			}
-			else
-			{
-				GoToMainPage();
-			}
+			GoToMainPage();
 		}
 
 		public static void GoToMainPage()
@@ -39,13 +23,13 @@ namespace GamersMixClient
 			Current.MainPage = new TabbedPage
 			{
 				Children = {
-					new NavigationPage(new ItemsPage())
+					new NavigationPage(new ReglerPage())
 					{
-						Title = "Browse"
+						Title = "Regler"
 					},
 					new NavigationPage(new AboutPage())
 					{
-						Title = "About"
+						Title = "Einstellungen"
 					},
 				}
 			};

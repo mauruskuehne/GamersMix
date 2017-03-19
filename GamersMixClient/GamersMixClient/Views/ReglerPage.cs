@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace GamersMixClient
 {
-	public partial class LoginPage : ContentPage
+	public partial class ReglerPage : ContentPage
 	{
-		public LoginPage()
+		public ReglerPage()
 		{
 			InitializeComponent();
 		}

@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 
 using Xamarin.Forms;
+using XLabs.Forms.Controls;
 
 namespace GamersMixClient
 {
@@ -20,18 +21,19 @@ namespace GamersMixClient
 
 		public static void GoToMainPage()
 		{
-			Current.MainPage = new TabbedPage
+			Current.MainPage = new MasterDetailPage
 			{
-				Children = {
-					new NavigationPage(new ReglerPage())
-					{
-						Title = "Regler"
-					},
-					new NavigationPage(new AboutPage())
+				Master = new NavigationPage(new AboutPage())
 					{
 						Title = "Einstellungen"
 					},
-				}
+				Detail =
+
+					new NavigationPage(new ReglerPage())
+					{
+						Title = "Regler"
+					}
+
 			};
 		}
 	}

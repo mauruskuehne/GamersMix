@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="GamersMixClient.ReglerPage" xmlns:vm="clr-namespace:GamersMixClient;" Title="{Binding Title}">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="GamersMixClient.ReglerPage" xmlns:vm="clr-namespace:GamersMixClient;" Title="{Binding Title}"
+	>
 	<ContentPage.BindingContext>
 		<vm:ReglerViewModel />
 	</ContentPage.BindingContext>
-	<ListView ItemsSource="{Binding Regler}">
+	<ListView ItemsSource="{Binding Regler}" HasUnevenRows="true" ItemTapped="Handle_ItemTapped">
 		<ListView.ItemTemplate>
 			<DataTemplate>
-				<Label Text="{Binding}" />
+				<ViewCell>
+					<StackLayout>
+						<Label Text="{Binding Name}" />
+						<Slider Minimum="0" Maximum="100" Value="{Binding Loudness}" Margin="10" HeightRequest="40" />
+						
+					</StackLayout>
+				</ViewCell>
 			</DataTemplate>
 		</ListView.ItemTemplate>
 	</ListView>

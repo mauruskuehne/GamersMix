@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "GamersMixClient", "GamersMixClient\GamersMixClient.shproj", "{52D0F8B0-83B8-4676-A0DC-78070FC24C28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamersMixClient.Droid", "Droid\GamersMixClient.Droid.csproj", "{948CFFAC-20F3-48CE-A56C-7E79B013C577}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamersMix", "Droid\GamersMix.csproj", "{948CFFAC-20F3-48CE-A56C-7E79B013C577}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

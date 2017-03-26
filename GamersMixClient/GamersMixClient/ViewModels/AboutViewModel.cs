@@ -45,7 +45,7 @@ namespace GamersMixClient
 
 				
 				App.Current.Properties["URL"] = completeName;
-				App.Current.Properties["SRVNAME"] = completeName;
+				App.Current.Properties["SRVNAME"] = srvName;
 				await Application.Current.SavePropertiesAsync();
 				
 				await App.Current.MainPage.DisplayAlert("Success!", "connected", "noice!");

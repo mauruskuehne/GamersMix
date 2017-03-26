@@ -40,7 +40,7 @@ namespace GamersMixClient
 			while (true) 
 			{
 				await GetReglerList();
-				await Task.Delay(1000);
+				await Task.Delay(5000);
 			}
 
 		}

@@ -89,7 +89,7 @@ namespace GamersMixClient
 
 				foreach (var item in reglerList)
 				{
-					var loudness = Convert.ToInt32(await client.GetStringAsync(URL + ("/" + item)));
+					var loudness = Convert.ToInt32(Convert.ToDouble(await client.GetStringAsync(URL + ("/" + item))));
 
 					var vm = new SingleReglerVM { Loudness = loudness, Name = item };
 					vm.PropertyChanged += LoudnessChanged;
